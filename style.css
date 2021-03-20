@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri, sans-serif;
+}
+
+nav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #2a3038;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #418df2;
+  text-decoration-thickness: 0.2em;
+}
+.active {
+  text-decoration: underline;
+  text-decoration-color: #418df2;
+  text-decoration-thickness: 0.2em;
+}
+
+.s4vvy-img {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 190px;
+  border-radius: 90%;
+}
+.saheel {
+  display: block;
+  text-align: center;
+}
+
+.octocat-img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 130px;
+  border-radius: 90%;
+}
+
+.octo {
+  display: block;
+  text-align: center;
+}
+.github-intro {
+  display: block;
+
+  text-align: center;
+  line-height: 10%;
+}
+.github-logo {
+  width: 80px;
+  height: 19px;
+}
+
+.repos {
+  text-align: center;
+  margin-top: 10px;
+}
+.repos ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.repos ul li {
+  display: block;
+  margin-top: 5px;
+}
+.repos ul li a {
+}
